@@ -62,7 +62,7 @@ test('correct todolist should change its name', () => {
     expect(endState[1].title).toBe(newTodolistTitle)
 })
 
-test('correct filter of todolist should be changed', () => {
+test('correct filter of todolist should be changed____', () => {
     let newFilter: FilterValuesType = 'completed'
 
     const action = changeTodolistFilterAC({id: 'todolistsId2', filter: 'active'})
